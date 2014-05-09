@@ -1,0 +1,24 @@
+#loginbtn{
+	margin-top: 8px;
+	width: 32px;
+	height: 14px;
+	font-size: 15px;
+	padding: 5px;
+}
+.Middle{
+	width: 960px;
+	margin: 100px auto;
+}
+.showbar{
+	width: 960px;
+	margin: 50px auto;
+}
+.input-prepend{
+ 	margin:10px;
+}
+.btn-success{
+	margin: 10px;
+}
+.edit{
+	display: none;
+}

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<meta name="KEYWords" content="暨大导航"/>
+	<meta name='description' content='暨南大学的导航页面'/>
+	<meta name="author" content="JnuFM studio"/> 
+	<meta name="viewport"  content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+	<meta name="Robots" contect="all">
+	<meta name="revisit-after" content="1 days"> 
+	<title>暨大导航</title>
+    <link rel="stylesheet" type="text/css" href="css/index-min.css" />
+    <link rel="shortcut icon" href="img/icon.jpg" type="image/x-icon">
+    
+</head>
+<body>
+
+    <div class="container">
+   
+    <div class="header">
+        <p>选择校区</p>
+    </div>
+    <div class="main">
+        <div class="a_benbu">
+            <div class="benbu">
+                <div class="wrap_img">
+                    <img src="images/benbu.png" >
+                </div>
+                <div class="layer"></div>
+            </div>
+            <p class="enter1">点击进入</p>  
+        </div>
+        <div class="t_benbu">
+            <span>本部</span>
+        </div>
+        <div class="a_zhuhai">
+            <div class="zhuhai">
+                <div class="wrap_img">
+                    <img src="images/zhuhai.png" >
+                </div>
+                <div class="layer"></div>       
+            </div>
+            <p class="enter2">点击进入</p>  
+        </div>
+        
+        <div class="t_zhuhai">
+            <span>珠海</span>
+        </div>
+        <div class="a_shenlv">
+            <div class="shenlv">
+                <div class="wrap_img">
+                    <img src="images/shenlv.png" >
+                </div>
+                <div class="layer"></div>
+            </div>
+            <p class="enter3">点击进入</p>  
+        </div>
+        <div class="t_shenlv">
+            <span>深旅</span>
+        </div>
+        <div class="a_huawen">
+            <div class="huawen">
+                <div class="wrap_img">
+                    <img src="images/huawen.png" >
+                </div>
+                <div class="layer"></div>
+            </div>
+            <p class="enter4">点击进入</p>  
+        </div>
+        <div class="t_huawen">
+            <span>华文</span>
+        </div>
+    </div>
+    
+    <div class="bg">
+        <div class="yun1"></div>
+    <div class="yun2"></div>
+
+    </div>
+</div>
+
+ <div class="layout">
+	<div class="topbar">
+		<div class="center">
+			<div class="logo">
+				<img src="img/logo.jpg">
+			</div>
+			<div class="title">
+				暨大导航
+			</div>
+            <div class="bookmark">
+                <img src="img/sethomepage.png"><a href="javascript:;" onclick="SetHome(this,window.location)"><span>设为首页</span></a><br/>
+            </div>
+            <div class="weather">
+                <div class="time">
+                    
+                   
+                </div>
+                
+                <div class="todayweather">
+                    
+                </div>
+                <div class="tomoweather">
+            
+                </div>
+            </div>
+			
+		</div>
+	</div>
+        <div id="search">
+
+            <div class="searchbar">
+            <div id="searchby">
+                <ul>
+                    <li></li>
+                    <li><a id="baidu" href="javascript:;" class="active">百度</a></li>
+                    <li><a id="google" href="javascript:;">谷歌</a></li>
+                    <li><a id="library" href="javascript:;">图书馆</a></li>
+                    <li><a id="taobao" href="javascript:;">淘宝</a></li>              
+                </ul>
+            </div>
+            <a target="_blank" href="http://www.baidu.com" id="logolink">       
+                <img src="img/baidu.png" id="searchlogo">
+            </a>   
+            <form action="http://www.baidu.com/s" target="_blank" id="searchform"  method="get">
+                <div id="searchbox">
+                    <input type="text" name="wd" id="inputtext" autocomplete="off"/>
+                    <div id="search_result"></div>
+                </div>
+                <div id="btnbox">
+                    <input type="submit" value="搜索一下" id="inputsubmit"/>
+                </div>
+            </form>
+        </div>
+        </div>
+	<div class="center">
+    <div class="middlebar">
+        
+            <div class="boxtitle">常用网址
+                <span id="addLinkBtn">
+                    <a href="javascript:;" id="add_links">
+                        <div class="setting">
+                            <img src="img/setting.png">
+                            <span id="btntext">管理网站</span>
+                             <div class="btn" id="btn"></div> 
+                        </div>
+                    </a>
+                </span>
+            </div>
+            <div id="TabbedPanels1" class="TabbedPanels">
+
+                <ul class="TabbedPanelsTabGroup">
+                <li class="TabbedPanelsTab" tabindex="0" onmouseover="TabbedPanels1.showPanel(0)"><span></span></li>
+                <li class="TabbedPanelsTab" tabindex="0" onmouseover="TabbedPanels1.showPanel(1)"><span></span></li>
+              </ul>
+
+            <div class="TabbedPanelsContentGroup">
+                <div class="TabbedPanelsContent">
+                    <ul id="chooseLink1">
+                    </ul>
+                </div>
+                <div class="TabbedPanelsContent">
+                    <ul id="chooseLink2">
+                    </ul>
+
+                </div>
+            </div>    
+                    
+        </div>
+    </div>
+        <div class="spacebar">
+            <div class="studytitle">学习•考试
+                <a href="javascript:;" id="majorlink">
+                    <div class="studylabel">选择专业
+                        <img src="img/studyicon.png">
+                    </div>
+                </a>
+            </div>          
+            <ul id="majorcontent">
+                
+            </ul>
+            <div id="majorpager">
+                <a href="javascript:;" class="uppage" name="major">&#60;</a>
+                <span class="nowpage">1</span>/
+                <span class="pagenum"></span>
+                <a href="javascript:;" class="downpage" name="major">></a>
+            </div>
+        </div>
+        <div class="spacebar">
+            <div class="hobbytitle">爱好•兴趣
+                <a href="javascript:;" id="hobbylink">
+                    <div class="hobbylabel">选择爱好
+                        <img src="img/hobbyicon.png">
+                    </div>
+                </a>
+            </div>
+            <ul id="hobbycontent">
+                
+            </ul>
+            <div id="hobbypager">
+                <a href="javascript:;" class="uppage" name="hobby">&#60;</a>
+                <span class="nowpage">1</span>/
+                <span class="pagenum"></span>
+                <a href="javascript:;" class="downpage" name="hobby">></a>
+            </div>
+        </div>
+        <div class="lastspacebar">
+            
+            <div class="tooltitle">工具•娱乐
+                <a href="javascript:;" onclick="showdiv('showtool');">
+                    <div class="toollabel">扫二维码
+                        <img src="img/toolicon.png">
+                    </div>
+                </a>
+            </div>
+            <ul id="toolcontent">
+            
+               
+            </ul>
+            <div id="toolpager">
+                <a href="javascript:;" class="uppage" name="tool">&#60;</a>
+                <span class="nowpage">1</span>/
+                <span class="pagenum"></span>
+                <a href="javascript:;" class="downpage" name="tool">></a>
+            </div>
+        </div>
+    </div>
+    <div id="bg" onclick="hidediv();"></div>
+<div id="feedback">
+     <div class="studytopbar">
+        <img src="img/hobbyicon.png">用户反馈
+    </div> 
+    <div class="popcheckbox"> 
+        <div class="editcontent">
+            <textarea class="feedbacktext"></textarea>
+        </div>
+        <div class="closeblue" onclick="hidediv();">取消</div>
+        <input class="popbtn" type="image" id="feedbackbtn" src="img/major/submit.png" />
+    </div>
+</div> 
+
+
+     <div id="editwebsite">
+        <div class="studytopbar">
+            <img src="img/hobbyicon.png">编辑内容
+        </div> 
+        <div class="popradiobox"> 
+            
+                <form action="php/addwebsite.php" method="get">
+                <div class="editcontent">
+                <span>网站名称&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span>文字底色</span>
+                <br/>
+                <input type="hidden" name="uid" class="uid" value=""/> 
+                <input type="hidden" name="admin" class="uid" value="0"/> 
+                <input type="hidden" name="position" id="position" value=""/> 
+                <input type="hidden" name="do" id="do" value=""/> 
+                <input type="text" name="webname" id="webname"/> 
+                <label id="bluelabel"><img src="img/webcolor/blue.png">
+                <input type="radio" name="webcolor" value="blue"/>蓝</label>          
+                <label id="greenlabel"><img src="img/webcolor/green.png">
+                <input type="radio" name="webcolor" value="green"/>绿</label>
+
+                <label id="redlabel"><img src="img/webcolor/red.png">
+                <input type="radio" name="webcolor" value="red"/>红</label>
+                <br/>
+
+                <span>网站地址</span>
+                <br/>
+                <input type="text" name="weburl" id="webadd"/>
+                </div> 
+                <div class="closeblue" onclick="hidediv();">取消</div>
+                <input class="popbtn" type="image" src="img/major/submit.png" />
+                </form>
+             
+        </div>    
+    </div>
+
+
+    <div id="showstudy">
+        <div class="studytopbar">
+            <img src="img/studyicon.png">选择你的专业
+        </div> 
+        <div class="popcheckbox">   
+            <form action="php/setfixed.php" method="post" class="fixedinfo">
+              <div class="majorlist">
+       
+
+               
+                
+                </div>
+            <div class="closeblue" onclick="hidediv();">取消</div>
+            <input class="popbtn" type="image" value="保存" src="img/major/submit.png" />
+            </form>
+        </div>    
+    </div>
+
+    <div id="showhobby">
+        <div class="hobbytopbar">
+            <img src="img/hobbyicon.png">选择你的爱好
+        </div> 
+        <div class="popcheckbox">   
+            <form action="php/setfixed.php" method="post" class="fixedinfo">
+              <div class="hobbylist">
+            
+                </div>
+                
+            <div class="closered" onclick="hidediv();">取消</div>
+            <input class="popbtn" type="image" src="img/hobby/submit.png" />
+            </form>
+        </div>    
+    </div>
+
+    <div id="showtool">
+        <div class="tooltopbar">
+            <img src="img/toolicon.png">扫二维码
+        </div>
+        <div class="toolcontent">
+            <img id="xycode" src="img/xycode.png">
+            <p>打开微信搜索"myjnufm"亦可添加<br/>
+            拥有包括图书馆搜索，课表查询，讲座查询等20多种校内实用功能</p>
+        </div>
+        <img class="surebtn" src="img/sure.png" onclick="hidediv();"/>
+  </div>
+
+
+  <div class="rightbtn">
+    <a href="javascript:gotoTOP();"><div id="uptotop"><img src="img/up.png"></div></a>  
+      
+      <div id="comment" onclick="showdiv('feedback');"><img src="img/comment.png"></div>
+  </div>
+  <br clear="all" />
+  </div>
+<div class="footer">
+    <div class="copyright">
+            <p>
+                Copyright © 2013 All Right Reserved JnuFM Studio
+            </p>    
+    </div>
+</div>
+
+
+<script src="js/SpryTabbedPanels.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/daohang-min.js"></script>
+
+</body>
+</html>	
+
